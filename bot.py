@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN   = os.environ.get('BOT_TOKEN',   'YOUR_BOT_TOKEN')
-WEBAPP_URL  = os.environ.get('WEBAPP_URL',  'https://your-site.com')
+BOT_TOKEN   = os.environ.get('BOT_TOKEN',   '8803704528:AAH_gRbcuOJS6fknXi0sWi6HDLBeJfWXK2E')
+WEBAPP_URL  = os.environ.get('WEBAPP_URL',  'https://waredwebsite2.vercel.app/')
 CHANNEL_URL = os.environ.get('CHANNEL_URL', 'https://t.me/medo_channel')
 SUPPORT_URL = os.environ.get('SUPPORT_URL', 'https://t.me/medo_add')
 TG_API      = f"https://api.telegram.org/bot{BOT_TOKEN}"

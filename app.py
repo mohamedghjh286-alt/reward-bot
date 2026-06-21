@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 load_dotenv()
 
-BOT_TOKEN    = os.environ.get('BOT_TOKEN',    'YOUR_BOT_TOKEN_HERE')
+BOT_TOKEN    = os.environ.get('BOT_TOKEN',    '8803704528:AAH_gRbcuOJS6fknXi0sWi6HDLBeJfWXK2E')
 WEBAPP_URL   = os.environ.get('WEBAPP_URL',   'https://waredwebsite2.vercel.app/')
 ADMIN_ID     = int(os.environ.get('ADMIN_ID', '8988236075'))
 CHANNEL_URL  = os.environ.get('CHANNEL_URL',  'https://t.me/medo_channel')
